@@ -1,0 +1,165 @@
+.footer{
+    background: #2D314D;
+    height: 191px;
+    width: 100%;
+    margin-top: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &__first{
+        display: flex;
+        flex-direction: column;
+    }
+    &__logo > img{
+        margin-top: 20px;
+    }
+    &__network > svg{
+        margin-top: 55px;
+        color: #fff;
+        cursor: pointer;
+        &:hover{
+            color: #30C88F;
+        }
+    }
+    &__network > svg{
+        margin-right: 13px;
+    }
+    &__logo{
+        margin-top: 20px;
+    }
+    &__nav{
+        display: flex;
+        flex-direction: column;
+        margin-top: 29px;
+    }
+    &__nav__item__first{
+        list-style: none;
+        padding-top: 8px;
+    }
+    &__nav__item__first > a{
+        font-family: 'PublicSans';
+        font-size: 15px;
+        line-height: 26px;
+        letter-spacing: -0.234375px;
+        text-align: left;
+        color: rgba(255, 255, 255, 1);
+        text-decoration: none;
+        &:hover{
+            color: rgba(48, 200, 143, 1);
+        }
+    }
+    &__btn{
+        text-decoration: none;
+        color: rgba(255, 255, 255, 1);
+        background: linear-gradient(135deg, #33D35E 0%, #2AB6D9 99.58%);
+        border: 1px solid;
+        padding: 8px 33px;
+        border-radius: 22px;
+        margin-top: 20px;
+        &:active{
+            cursor: pointer;
+            background: linear-gradient(135deg, #33d35e86 0%, #2ab6d98c 99.58%);
+            color: white;
+        }
+    }
+    &__desc{
+        font-family: 'PublicSans';
+        font-size: 15px;
+        line-height: 26px;
+        letter-spacing: -0.234375px;
+        text-align: right;
+        color: rgba(255, 255, 255, 1);
+        margin-top: 24px;
+    }
+    &__buttons{
+        margin-top: 30px;
+    }
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 420px){
+    .footer{
+        background: #2D314D;
+        height: 500px;
+        width: 100%;
+        margin-top: -50px;
+        display: flex;
+        flex-direction: column;
+        &__first{
+            display: flex;
+            flex-direction: column;
+        }
+        &__logo > img{
+            margin-top: 20px;
+        }
+        &__network > svg{
+            margin-top: 32px;
+            color: #fff;
+            cursor: pointer;
+            &:hover{
+                color: #30C88F;
+            }
+        }
+        &__network > svg{
+            margin-right: 13px;
+        }
+        &__logo{
+            margin-top: 20px;
+        }
+        &__nav{
+            display: flex;
+            flex-direction: column;
+            margin-top: 0px;
+            margin-right: 50px;
+            margin-left: 0px;
+            text-align: center;
+        }
+        &__nav__item__first{
+            list-style: none;
+            padding-top: 8px;
+        }
+        &__nav__item__first > a{
+            font-family: 'PublicSans';
+            font-size: 15px;
+            line-height: 26px;
+            letter-spacing: -0.234375px;
+            text-align: left;
+            color: rgba(255, 255, 255, 1);
+            text-decoration: none;
+            &:hover{
+                color: rgba(48, 200, 143, 1);
+            }
+        }
+        &__btn{
+            text-decoration: none;
+            color: rgba(255, 255, 255, 1);
+            background: linear-gradient(135deg, #33D35E 0%, #2AB6D9 99.58%);
+            border: 1px solid;
+            padding: 8px 33px;
+            border-radius: 22px;
+            margin-top: 20px;
+            &:active{
+                cursor: pointer;
+                background: linear-gradient(135deg, #33d35e86 0%, #2ab6d98c 99.58%);
+                color: white;
+            }
+        }
+        &__desc{
+            font-family: 'PublicSans';
+            font-size: 15px;
+            line-height: 26px;
+            letter-spacing: -0.234375px;
+            text-align: right;
+            color: rgba(255, 255, 255, 1);
+            margin-top: 24px;
+        }
+        &__buttons{
+            margin-top: 20px;
+        }
+    }
+}
