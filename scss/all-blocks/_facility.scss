@@ -1,0 +1,459 @@
+.facility{
+    align-items: center;
+    justify-content: space-between;
+    background: #F4F5F7;
+    margin-top: -70px;
+    opacity: 1;
+    &__title{
+        font-family: 'Public Sans', sans-serif;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 100;
+        line-height: 64px;
+        letter-spacing: -0.7142857313156128px;
+        text-align: left;
+        color: rgba(45, 49, 77, 1);
+        padding-top: 94px;
+        padding-bottom: 16px;
+    }
+    &__desc{
+        font-family: "Public Sans", sans-serif;
+        font-size: 18px;
+        line-height: 28px;
+        letter-spacing: -0.28125px;
+        text-align: left;
+        color: rgba(45, 49, 77, 1);
+        width: 50%;
+        margin-bottom: 184px;
+    }
+    &__cards{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    &__card > h1{
+        font-family: 'Public Sans', sans-serif;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 100;
+        line-height: 28px;
+        letter-spacing: -0.4285714328289032px;
+        text-align: left;
+        color: #2D314D;
+    }
+    &__card > p{
+        font-family: 'Public Sans', sans-serif;
+        font-size: 16px;
+        line-height: 26px;
+        letter-spacing: -0.25px;
+        text-align: left;
+        color: #9597A5;
+        width: 60%;
+        margin-top: 26px;
+    }
+    &__card__1{
+        position: relative;
+        &::after{
+            position: absolute;
+            content: "";
+            background: url(../Image/facility/card1.png);
+            background-repeat: no-repeat;
+            width: 90px;
+            height: 90px;
+            top: -90px;
+            left: 0px;
+        }
+    }
+    &__card__2{
+        position: relative;
+        &::after{
+            position: absolute;
+            content: "";
+            background: url(../Image/facility/card2.png);
+            background-repeat: no-repeat;
+            width: 90px;
+            height: 90px;
+            top: -90px;
+            left: 0px;
+        }
+    }
+    &__card__3{
+        position: relative;
+        &::after{
+            position: absolute;
+            content: "";
+            background: url(../Image/facility/card3.png);
+            background-repeat: no-repeat;
+            width: 90px;
+            height: 90px;
+            top: -90px;
+            left: 0px;
+        }
+    }
+    &__card__4{
+        position: relative;
+        &::after{
+            position: absolute;
+            content: "";
+            background: url(../Image/facility/card4.png);
+            background-repeat: no-repeat;
+            width: 90px;
+            height: 90px;
+            top: -90px;
+            left: 0px;
+        }
+    }
+}
+
+
+@media screen and (max-width: 420px){
+    .facility{
+        align-items: center;
+        justify-content: space-between;
+        background: #F4F5F7;
+        margin-top: -70px;
+        opacity: 1;
+        &__title{
+            font-family: 'Public Sans', sans-serif;
+            font-size: 32px;
+            font-style: normal;
+            font-weight: 100;
+            line-height: 38px;
+            letter-spacing: -0.5714285969734192px;
+            text-align: center;
+            color: rgba(45, 49, 77, 1);
+            width: 50%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        &__desc{
+            font-family: "Public Sans", sans-serif;
+            font-size: 15px;
+            line-height: 25px;
+            letter-spacing: -0.234375px;
+            text-align: center;
+            color: rgba(45, 49, 77, 1);
+            width: 80%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        &__cards{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+        }
+        &__card > h1{
+            font-family: 'Public Sans', sans-serif;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 100;
+            line-height: 28px;
+            letter-spacing: -0.4285714328289032px;
+            text-align: center;
+            color: #2D314D;
+        }
+        &__card > p{
+            font-family: 'Public Sans', sans-serif;
+            font-size: 16px;
+            line-height: 26px;
+            letter-spacing: -0.25px;
+            text-align: center;
+            color: #9597A5;
+            width: 85%;
+            margin-top: 26px;
+            margin-left: 30px;
+        }
+        &__card__1{
+            position: relative;
+            &::after{
+                position: absolute;
+                content: "";
+                background: url(../Image/facility/card1.png);
+                background-repeat: no-repeat;
+                width: 90px;
+                height: 90px;
+                top: -90px;
+                left: 160px;
+            }
+        }
+        &__card__2{
+            margin-top: 130px;
+            position: relative;
+            &::after{
+                position: absolute;
+                content: "";
+                background: url(../Image/facility/card2.png);
+                background-repeat: no-repeat;
+                width: 90px;
+                height: 90px;
+                top: -90px;
+                left: 160px;
+            }
+        }
+        &__card__3{
+            margin-top: 130px;
+            position: relative;
+            &::after{
+                position: absolute;
+                content: "";
+                background: url(../Image/facility/card3.png);
+                background-repeat: no-repeat;
+                width: 90px;
+                height: 90px;
+                top: -90px;
+                left: 160px;
+            }
+        }
+        &__card__4{
+            margin-top: 130px;
+            position: relative;
+            &::after{
+                position: absolute;
+                content: "";
+                background: url(../Image/facility/card4.png);
+                background-repeat: no-repeat;
+                width: 90px;
+                height: 90px;
+                top: -90px;
+                left: 160px;
+            }
+        }
+    }
+}
+
+
+
+
+@media screen and (max-width: 380px){
+    .facility{
+        align-items: center;
+        justify-content: space-between;
+        background: #F4F5F7;
+        margin-top: -70px;
+        opacity: 1;
+        &__title{
+            font-family: 'Public Sans', sans-serif;
+            font-size: 32px;
+            font-style: normal;
+            font-weight: 100;
+            line-height: 38px;
+            letter-spacing: -0.5714285969734192px;
+            text-align: center;
+            color: rgba(45, 49, 77, 1);
+            width: 50%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        &__desc{
+            font-family: "Public Sans", sans-serif;
+            font-size: 15px;
+            line-height: 25px;
+            letter-spacing: -0.234375px;
+            text-align: center;
+            color: rgba(45, 49, 77, 1);
+            width: 80%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        &__cards{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+        }
+        &__card > h1{
+            font-family: 'Public Sans', sans-serif;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 100;
+            line-height: 28px;
+            letter-spacing: -0.4285714328289032px;
+            text-align: center;
+            color: #2D314D;
+        }
+        &__card > p{
+            font-family: 'Public Sans', sans-serif;
+            font-size: 16px;
+            line-height: 26px;
+            letter-spacing: -0.25px;
+            text-align: center;
+            color: #9597A5;
+            width: 85%;
+            margin-top: 26px;
+            margin-left: 30px;
+        }
+        &__card__1{
+            position: relative;
+            &::after{
+                position: absolute;
+                content: "";
+                background: url(../Image/facility/card1.png);
+                background-repeat: no-repeat;
+                width: 90px;
+                height: 90px;
+                top: -90px;
+                left: 140px;
+            }
+        }
+        &__card__2{
+            margin-top: 130px;
+            position: relative;
+            &::after{
+                position: absolute;
+                content: "";
+                background: url(../Image/facility/card2.png);
+                background-repeat: no-repeat;
+                width: 90px;
+                height: 90px;
+                top: -90px;
+                left: 140px;
+            }
+        }
+        &__card__3{
+            margin-top: 130px;
+            position: relative;
+            &::after{
+                position: absolute;
+                content: "";
+                background: url(../Image/facility/card3.png);
+                background-repeat: no-repeat;
+                width: 90px;
+                height: 90px;
+                top: -90px;
+                left: 140px;
+            }
+        }
+        &__card__4{
+            margin-top: 130px;
+            position: relative;
+            &::after{
+                position: absolute;
+                content: "";
+                background: url(../Image/facility/card4.png);
+                background-repeat: no-repeat;
+                width: 90px;
+                height: 90px;
+                top: -90px;
+                left: 140px;
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width: 320px){
+    .facility{
+        align-items: center;
+        justify-content: space-between;
+        background: #F4F5F7;
+        margin-top: -70px;
+        opacity: 1;
+        &__title{
+            font-family: 'Public Sans', sans-serif;
+            font-size: 32px;
+            font-style: normal;
+            font-weight: 100;
+            line-height: 38px;
+            letter-spacing: -0.5714285969734192px;
+            text-align: center;
+            color: rgba(45, 49, 77, 1);
+            width: 50%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        &__desc{
+            font-family: "Public Sans", sans-serif;
+            font-size: 15px;
+            line-height: 25px;
+            letter-spacing: -0.234375px;
+            text-align: center;
+            color: rgba(45, 49, 77, 1);
+            width: 80%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        &__cards{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+        }
+        &__card > h1{
+            font-family: 'Public Sans', sans-serif;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 100;
+            line-height: 28px;
+            letter-spacing: -0.4285714328289032px;
+            text-align: center;
+            color: #2D314D;
+        }
+        &__card > p{
+            font-family: 'Public Sans', sans-serif;
+            font-size: 16px;
+            line-height: 26px;
+            letter-spacing: -0.25px;
+            text-align: center;
+            color: #9597A5;
+            width: 85%;
+            margin-top: 26px;
+            margin-left: 30px;
+        }
+        &__card__1{
+            position: relative;
+            &::after{
+                position: absolute;
+                content: "";
+                background: url(../Image/facility/card1.png);
+                background-repeat: no-repeat;
+                width: 90px;
+                height: 90px;
+                top: -90px;
+                left: 110px;
+            }
+        }
+        &__card__2{
+            margin-top: 130px;
+            position: relative;
+            &::after{
+                position: absolute;
+                content: "";
+                background: url(../Image/facility/card2.png);
+                background-repeat: no-repeat;
+                width: 90px;
+                height: 90px;
+                top: -90px;
+                left: 110px;
+            }
+        }
+        &__card__3{
+            margin-top: 130px;
+            position: relative;
+            &::after{
+                position: absolute;
+                content: "";
+                background: url(../Image/facility/card3.png);
+                background-repeat: no-repeat;
+                width: 90px;
+                height: 90px;
+                top: -90px;
+                left: 110px;
+            }
+        }
+        &__card__4{
+            margin-top: 130px;
+            position: relative;
+            &::after{
+                position: absolute;
+                content: "";
+                background: url(../Image/facility/card4.png);
+                background-repeat: no-repeat;
+                width: 90px;
+                height: 90px;
+                top: -90px;
+                left: 110px;
+            }
+        }
+    }
+}

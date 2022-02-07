@@ -1,5 +1,13 @@
 .container{
-    max-width: 1125px;
     margin: 0 auto;
-    padding: 0 30px;
+    padding: 0 100px;
+    overflow-y: hidden;
+}
+
+@media screen and (max-width: 420px){
+    .container{
+        margin: 0 auto;
+        padding: 0 10px;
+        overflow-y: hidden;
+    }
 }
